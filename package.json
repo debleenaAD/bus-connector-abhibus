@@ -1,0 +1,38 @@
+{
+  "name": "bus-connector-abhibus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "ts-jest": "^26.6.3",
+    "@types/jest": "^26.0.23",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.9.4",
+    "rimraf": "^2.6.3",
+    "serverless-api-compression": "^1.0.1",
+    "serverless-domain-manager": "^2.3.6",
+    "ts-node": "^8.0.2",
+    "typescript": "^4.1.6"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.3",
+    "aws-sdk": "^2.228.1",
+    "aws-serverless-express": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.15.2",
+    "firehoser": "^1.3.6",
+    "jsonwebtoken": "^8.5.0",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0",
+    "wsdl": "0.0.1"
+  }
+}
